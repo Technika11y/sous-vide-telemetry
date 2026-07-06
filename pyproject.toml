@@ -1,0 +1,18 @@
+[project]
+name = "technika11y-sous-vide-telemetry"
+version = "0.1.0a0"
+description = "Tamper-evident (hash-chained) temperature ledger + HACCP cook-safety check — proof-of-compliance for sous-vide / thermal cooking."
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+keywords = ["haccp", "food-safety", "sous-vide", "tamper-evident", "hash-chain", "food-service"]
+
+[project.scripts]
+sous-vide-telemetry = "sousvide.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["sousvide"]

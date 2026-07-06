@@ -1,0 +1,10 @@
+{
+  "min_temp_c": 54.4,
+  "hold_minutes": 90,
+  "readings": [
+    { "t": 0, "temp_c": 20.0 },
+    { "t": 5, "temp_c": 55.1 },
+    { "t": 50, "temp_c": 56.0 },
+    { "t": 95, "temp_c": 55.0 }
+  ]
+}
