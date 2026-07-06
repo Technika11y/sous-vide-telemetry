@@ -11,6 +11,13 @@
 
 ---
 
+## Quick start
+
+```bash
+git clone https://github.com/technika11y/sous-vide-telemetry && cd sous-vide-telemetry
+PYTHONPATH=src python3 -m sousvide.cli check examples/cook.json
+```
+
 ## Status — read this first
 
 **Pre-alpha (`v0.1.0a0`). Honest state of the code:**
